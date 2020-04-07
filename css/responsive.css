@@ -1,0 +1,223 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .feature-img img {
+        margin-left: -270px;
+    }
+    .feature-content h1 {
+            font-size: 50px;
+    }
+    .products-text h2 {
+        font-size: 35px;
+    }
+    .hero-bg-2::after {
+        left: 200px;
+    }
+    .hero-bg-2 {
+        right: -22%;
+        width: 1300px;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-text {
+        position: relative;
+        width: 60%;
+    }
+    .box-img {
+        display: inline-block;
+        margin-right: 50px;
+    }
+    .feature-img {
+        display: flex;
+        justify-content: center;
+    }
+    .feature-img img {
+        position: relative;
+    }
+    .feature-items .col-xl-7 {
+        min-height: 550px;
+    }
+    .user-active-bar .active-slide {
+	width: 80px;
+}
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-text {
+        position: relative;
+        width: 60%;
+    }
+    .box-img {
+        display: inline-block;
+        margin-right: 50px;
+    }
+    .feature-img {
+        display: flex;
+        justify-content: center;
+    }
+    .feature-img {
+	margin-left: 0;
+    }
+    .feature-img img {
+        position: relative;
+    }
+    .feature-items .col-xl-7 {
+        min-height: 700px;
+    }
+    .user-active-bar .active-slide {
+        left: 35px;
+    }
+    .support-item h3 {
+        font-size: 22px;
+    }
+    .activity-item h1 {
+        font-size: 40px;
+    }
+    .user-active-bar .active-slide {
+        width: 60px;
+    }
+    .user-info h4 {
+        font-size: 16px;
+    }
+    .success2-text h2 {
+        margin-bottom: 18px;
+        font-size: 30px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .hero-text {
+        position: relative;
+    }
+    .box-img {
+        display: inline-block;
+        margin-right: 50px;
+    }
+    .feature-img {
+        display: flex;
+        justify-content: center;
+    }
+    .feature-img img {
+        position: relative;
+    }
+    .user-active-bar .active-slide {
+	width: 80px;
+    }
+    .feature-img {
+        margin-left: 0;
+    }
+    .activity-item h1 {
+        margin-bottom: 40px;
+    }
+    .col-md-4:last-child .activity-item h1 {
+        margin-bottom: 0px;
+    }
+    .products-about-img {
+        height: 500px;
+        width: 100%;
+    }
+    .products-text {
+        width: 100%;
+        margin-left: 4%;
+        padding-right: 40px;
+    }
+    .products-about-area {
+        padding-top: 540px;
+    }
+    .products-about-area {
+        padding-bottom: 60px;
+    }
+    .products-about-area2 .products-text {
+        width: 100%;
+        margin-left: 4%;
+    }
+    .products-about-img.products-about-img2 {
+        right: auto;
+        width: 44%;
+    }
+    .products-about-img.products-about-img3 {
+        width: 66%;
+    }
+    .brand-area .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .brand-area .col-md-4:last-child {
+        margin-bottom: 0px;
+    }
+    .footer-logo p {
+        margin-bottom: 40px;
+    }
+    .social-links {
+        position: relative;
+        transform: translateY(0%);
+        padding-top: 20px;
+    }
+    .copyright-area {
+        display: block;
+        text-align: center;
+    }
+    .open-btn.goimgToCross {
+        top: 25px;
+    }
+    .hero-box-imgs {
+        margin: 0;
+    }
+    .box-img {
+        margin-right:0px;
+    }
+    .feature-content {
+        padding-top: 550px;
+    }
+    .feature-items .col-xl-7 {
+        min-height: 1500px;
+    }
+    .feature-content p {
+        margin-right: 0px;
+    }
+    .feature-list {
+        display: block;
+    }
+    .feature-list-area ul {
+        padding: 15px;
+    }
+    .user-speech {
+        height: 550px;
+    }
+    .testimony-single-slider {
+        position: static;
+    }
+    .testimony-single-slider .user-info {
+        width: 200px;
+    }
+    .user-active-bar .active-slide {
+        left: 5px;
+    }
+    .feature-items .col-sm-3 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: translateX(-25%);
+    }
+    .feature-tab > div.tabActive::after {
+        width: 150%;
+        border-radius: 20px;
+        transform: translateX(-17%);
+    }
+    .feature-tab > div::after {
+        border-right: 10px solid transparent;
+    }
+    .success2-text h2 {
+        font-size: 30px;
+    }
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+.container {width:450px}
+.feature-items .col-sm-3 {
+    transform: translateX(0%);
+}
+}
